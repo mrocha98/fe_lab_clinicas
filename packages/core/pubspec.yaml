@@ -1,0 +1,31 @@
+name: fe_lab_clinicas_core
+description: A Very Good Project created by Very Good CLI.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  asyncstate: ^2.1.1-dev.1
+  dio: ^5.4.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  loading_animation_widget: ^1.2.0+4
+  logger: ^2.0.2+1
+  meta: ^1.11.0
+  shared_preferences: ^2.2.2
+  signals_flutter: ^3.0.0
+  top_snackbar_flutter: ^3.1.0
+
+dev_dependencies:
+  fe_lab_clinicas_lint:
+    path: ../lint
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true

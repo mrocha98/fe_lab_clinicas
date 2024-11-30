@@ -1,0 +1,7 @@
+POST http://{{$dotenv %HOST}}/auth
+Content-Type: application/json
+
+{
+  "email": "at1@gmail.com",
+  "password": "123123"
+}
